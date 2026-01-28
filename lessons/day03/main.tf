@@ -34,7 +34,7 @@ resource "aws_s3_bucket" "tf_test_baivab_bucket" {
 
 
 # Create a S3 bucket
-resource "aws_s3_bucket" "tf_test_baivab_bucket222242" {
+resource "aws_s3_bucket" "tf_test_baivab_bucket2222fff42" {
   bucket = "my-tf-test-baiv-bucket-222444444444442424223"
 
   tags = {
