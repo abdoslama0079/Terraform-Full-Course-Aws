@@ -22,3 +22,13 @@ resource "aws_s3_bucket" "tf_test_baivab_bucket" {
   }
 }
 
+# Create a S3 bucket
+resource "aws_s3_bucket" "tf_test_baivab_bucket" {
+  bucket = "my-tf-test-baiv-bucket-1042133hhh333334334"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
+
