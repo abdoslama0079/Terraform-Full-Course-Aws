@@ -63,6 +63,7 @@ variable "single_nat_gateway" {
 # SSH
 variable "ssh_key_name" {
   description = "SSH key pair name for EC2 instances"
+  default = "hands-on-key"
   type        = string
 }
 
